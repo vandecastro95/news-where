@@ -6,8 +6,8 @@
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server.js",
-    "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "client": "yarn start --prefix client",
+    "dev": "concurrently \"yarn run server\" \"cd client && yarn start\""
   },
   "author": "Van de Castro",
   "license": "ISC",
